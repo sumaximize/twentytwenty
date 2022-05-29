@@ -91,8 +91,8 @@ function twentytwenty_theme_support() {
 	 * hard-coded <title> tag in the document head, and expect WordPress to
 	 * provide it for us.
 	 */
-	add_theme_support( 'title-tag' );
-
+	add_theme_support( 'title-tag' ); // tells WP to place title tag in <head>
+	
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
