@@ -1,2 +1,29 @@
 # Settings files
 config
+
+# python / python packaging:
+*.pyc
+__pycache__/
+*.egg-info/
+*.whl
+
+# test output:
+.pytest_cache
+
+# editor configs:
+**/.vscode/*
+.idea/
+
+# virtualenvs
+.venv/
+venv*/
+
+# ignore all pdf and png files, except when placed in a docs/_static folder in some component
+# '!' is used to create an exception
+# *.pdf
+# *.png
+# !**/docs/_static/*.pdf
+# !**/docs/_static/*.png
+
+#contents of a particular folder
+particular-folder/
